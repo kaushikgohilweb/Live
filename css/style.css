@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-BoldItalic.eot');
+    src: url('../font/georgia/Georgia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-BoldItalic.woff') format('woff'),
+        url('../font/georgia/Georgia-BoldItalic.ttf') format('truetype'),
+        url('../font/georgia/Georgia-BoldItalic.svg#Georgia-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-BoldItalic_1.eot');
+    src: url('../font/georgia/Georgia-BoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-BoldItalic_1.woff') format('woff'),
+        url('../font/georgia/Georgia-BoldItalic_1.ttf') format('truetype'),
+        url('../font/georgia/Georgia-BoldItalic_1.svg#Georgia-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-Bold.eot');
+    src: url('../font/georgia/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-Bold.woff') format('woff'),
+        url('../font/georgia/Georgia-Bold.ttf') format('truetype'),
+        url('../font/georgia/Georgia-Bold.svg#Georgia-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-Italic.eot');
+    src: url('../font/georgia/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-Italic.woff') format('woff'),
+        url('../font/georgia/Georgia-Italic.ttf') format('truetype'),
+        url('../font/georgia/Georgia-Italic.svg#Georgia-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-Italic_1.eot');
+    src: url('../font/georgia/Georgia-Italic_1.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-Italic_1.woff') format('woff'),
+        url('../font/georgia/Georgia-Italic_1.ttf') format('truetype'),
+        url('../font/georgia/Georgia-Italic_1.svg#Georgia-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia.eot');
+    src: url('../font/georgia/Georgia.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia.woff') format('woff'),
+        url('../font/georgia/Georgia.ttf') format('truetype'),
+        url('../font/georgia/Georgia.svg#Georgia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia_1.eot');
+    src: url('../font/georgia/Georgia_1.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia_1.woff') format('woff'),
+        url('../font/georgia/Georgia_1.ttf') format('truetype'),
+        url('../font/georgia/Georgia_1.svg#Georgia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-Bold_1.eot');
+    src: url('../font/georgia/Georgia-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-Bold_1.woff') format('woff'),
+        url('../font/georgia/Georgia-Bold_1.ttf') format('truetype'),
+        url('../font/georgia/Georgia-Bold_1.svg#Georgia-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Seriffic Grunge';
+    src: url('../font/georgia/SerifficGrunge-Bold.eot');
+    src: url('../font/georgia/SerifficGrunge-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/SerifficGrunge-Bold.woff') format('woff'),
+        url('../font/georgia/SerifficGrunge-Bold.ttf') format('truetype'),
+        url('../font/georgia/SerifficGrunge-Bold.svg#SerifficGrunge-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-BoldItalic_2.eot');
+    src: url('../font/georgia/Georgia-BoldItalic_2.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-BoldItalic_2.woff') format('woff'),
+        url('../font/georgia/Georgia-BoldItalic_2.ttf') format('truetype'),
+        url('../font/georgia/Georgia-BoldItalic_2.svg#Georgia-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../font/georgia/Georgia-Italic_2.eot');
+    src: url('../font/georgia/Georgia-Italic_2.eot?#iefix') format('embedded-opentype'),
+        url('../font/georgia/Georgia-Italic_2.woff') format('woff'),
+        url('../font/georgia/Georgia-Italic_2.ttf') format('truetype'),
+        url('../font/georgia/Georgia-Italic_2.svg#Georgia-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*,*:before , *:after {box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box;}
+*:focus{outline:none;}
+
+body{margin:0px; font-family: 'Georgia', sans-serif; font-size: 14px; font-weight:400; color:#979797; line-height: 1.4em; } 
+ul{margin:0px; padding:0px;}
+ul li{list-style:none;}
+img { vertical-align: middle; max-width: 100%; height: auto; }
+
+h1,h2,h3,h4,h5,h6,p{margin-top:0px; margin-bottom:10px;}
+h1 { font-size: 127px; font-weight: 400; line-height: 1em; color: #333333; text-transform: capitalize; }
+/*h2 { font-size: 35px; font-weight: 700; line-height: 1.6em; color: #000; text-transform: uppercase; }*/
+h3 { font-size: 40px; font-weight: 500; line-height: 1.1em; color: #333333; text-transform: uppercase; }
+h4 { font-size: 16px; font-weight: 400; line-height: 1.4em; color: #333333; text-transform: capitalize; }
+h5 { font-size: 35px; font-weight: 700; line-height: 1.6em; color: #000; text-transform: uppercase; }
+h6 { font-size: 35px; font-weight: 700; line-height: 1.6em; color: #000; text-transform: uppercase; }
+
+a{text-decoration: none; transition: all 0.3s linear; color: #40aed7;}
+
+.btn a {  display: inline-block; background-color: 40aed7; color: #fff; font-size: 12px; font-weight: 600; border: 1px solid #40aed7; border-radius: 10px;  transition: all 0.3s linear;  }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.pt { padding-top: 50px }
+.pb { padding-bottom: 50px; }
+
+.d-flex { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-wrap: wrap; width: auto; }
+
+
+.container{width: 100%; max-width: 1230px; padding: 0px 15px; margin: 0px auto;}
+
+/* header css start */
+.header-main { display: block; width: 100%; position: absolute; top: 0; left: 0; right: 0; background-color: #000; border-top: 5px solid #40aed7; }
+.header-main .header-outer { align-items: center; justify-content: space-between; }
+.header-main .heder-left { width: 30%; float: left; }
+.header-main .header-logo a { display: inline-block; }
+.header-main .header-logo { margin: 42px 0px; }
+.header-main .header-right { float: right; width: 70%; text-align: right; }
+.header-main .header-menu > ul > li { display: inline-block; margin: 0px 6px; position: relative; }
+.header-main .header-menu > ul > li > a { color: #fff; font-size: 17px; display: block; padding: 8px 17px; margin: 35px 0px; border-radius: 10px; text-transform: uppercase; }
+.header-main .header-menu > ul > li:hover > a { background-color: #40aed7; }
+.header-main .header-menu > ul > li:last-child { margin-right: inherit; }
+/* header css end */
+
+/* banner section css start */
+.banner-main {padding-top: 156px;padding-bottom: 20px;}
+/* banner section css end */
+
+
+/* service section css start */
+.service-main { display: block; width: 100%; padding-top: 30px; padding-bottom: 50px; }
+.service-main .service-outer { align-items: center; justify-content: center; text-align: center; margin: 0px -10px; }
+.service-main .service-outer .service-box { width: 25%; float: left; padding: 0px 10px; }
+.service-main .service-outer .service-box .service-inner { border: 2px solid #e4e4e4; padding: 20px; }
+.service-main .service-outer .service-box .service-img { height: 160px; margin-bottom: 10px; }
+.service-main .service-outer .service-box .service-img img { object-fit: contain; object-position: center; width: 100%; height: 100%; }
+.service-main .service-outer .service-box .service-heading { width: 100%; max-width: 223px; margin: 0 auto; padding-bottom: 20px; }
+.service-main .service-outer .service-box .service-info { width: 100%; max-width: 190px; margin: 0 auto; transition: all 0.5s ease; }
+.service-main .service-outer .service-box:hover .service-inner { background-color: #40aed7; transition: all 0.5s ease; }
+.service-main .service-outer .service-box:hover .service-info { color: #fff; }
+.service-main .service-outer .service-box:hover .service-heading h3 { color: #fff; }
+/* service section css end */
+
+/*team-section*/
+.team-section { display: block; width: 100%; }
+.team-section .team-heading h2 { font-size: 124px; line-height: 1.2em; color: #d3d3d3; font-weight: 400; padding-bottom: 40px; }
+.team-section .team-outer { justify-content: center; align-items: center; margin: 0px -10px; }
+.team-section .team-outer .team-box { width: 25%; float: left; padding: 0px 10px; }
+.team-section .team-outer .team-box .team-inner { padding: 20px; border: 2px solid #e4e4e4; }
+.team-section .team-outer .team-img { max-width: 100%; height: 225px; }
+.team-section .team-outer .team-img img { width: 100%; height: 100%; }
+.team-section .team-title h4 { padding: 15px 0px; font-weight: 600; border-bottom: 1px solid #e4e4e4; }
+.team-section .team-info { max-width: 242px; margin-bottom: 16px; }
+.team-section .team-link { text-align: right; }
+.team-section .team-link a { display: inline-block; }
+.team-section .team-link span:after { content: "\f101 "; font-family: 'FontAwesome'; top: 0; right: 0; font-size: 14px; padding-left: 5px; }
+/* team section end */
+
+/*footer start*/
+.footer-top { display: block; width: 100%; padding-top: 40px; padding-bottom: 40px; background-color: #303030; }
+.footer-top .footer-box { width: 25%; float: left; padding: 0px 10px; }
+.footer-top .footer-outer { margin: 0px -10px; justify-content: flex-start; align-items: flex-start; }
+.footer-top .footer-box .footer-inner { padding: 10px; }
+.footer-top .footer-box .footer-heading h4 { color: #fff; font-size: 20px; }
+.footer-top .footer-box .footer-heading { padding-bottom: 15px; }
+.footer-top .footer-box .footer-inner .footer-title { color: #979797; font-size: 16px; font-weight: 700; padding-bottom: 10px; }
+.footer-top .footer-box .footer-inner h5 { font-size: 10px; color: #666666; font-weight: 100; }
+.footer-top .footer-box .footer-inner h5 span { font-size: 15px; text-transform: capitalize; color: #3fadd7; }
+.footer-top .footer-box .footer-inner .footer-text { color: #979797; }
+.footer-top .footer-box .footer-inner .footer-more a { display: inline-block; }
+.footer-top .footer-box .footer-inner .footer-more a span { position: relative; }
+.footer-top .footer-box .footer-inner .footer-more a span:after { content: "\f101"; font-family: FontAwesome; position: absolute; top: 0; right: -15px; }
+.footer-top .footer-box .footer-inner .footer-date { color: #979797; font-size: 13px; text-transform: capitalize; }
+.footer-top .footer-box .footer-links ul li a { padding-bottom: 7px; display: inline-block; border-bottom: 1px solid #404040; margin-bottom: 8px;     width: 100%;}
+.footer-top .footer-heading .footer-more-text { margin-bottom: 50px; }
+.footer-top .footer-box .footer-more-text { margin-bottom: 20px; line-height: 1.5em; }
+.footer-top form .fo-cs { width: 100%; text-transform: capitalize; padding: 12px; background: #222222; border: navajowhite; margin-bottom: 10px; color: #979797; }
+.footer-top form textarea { resize: none; height: 60px; padding: 12px; width: 100%; background: #222222; border: navajowhite; color: #979797; margin-bottom: 10px; font-family: 'Georgia', sans-serif; text-transform: capitalize; }
+.footer-top form input[type="submit"] { background: #40aed7; padding: 13px 20px; font-size: 12px; color: #fff; text-transform: uppercase; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; }
+.footer-main .footer-links span { position: relative; padding-right: 17px; }
+.footer-bottom-part .footer-left { width: 50%; padding: 10px; }
+.footer-top .footer-bottom-part .footer-right { width: 50%; float: left; padding: 10px; }
+.footer-bottom { display: block; width: 100%; background-color: #2b2b2b; padding: 21px 0px; margin: 0 auto; display: inline-table; }
+.footer-bottom .footer-bottom-part p { margin: 0; }
+.footer-main .footer-links span:before { content: "\f101"; font-family: 'FontAwesome'; position: absolute; top: 0; left: 0; font-size: 14px; }
+.footer-bottom .footer-right { padding: 10px; }
+.footer-bottom-part { justify-content: space-between; align-items: center; }
+/* footer end */
+
+
+@media(max-width:1229px) {
+    .container { max-width: 970px; }
+    h1 { font-size: 90px; }
+    h3 { font-size: 25px; }
+    .header-main .header-menu > ul > li > a { padding: 10px 7px; font-size: 13px; }
+    .header-main .header-logo { max-width: 145px; }
+    .header-main .heder-left { width: 15%; }
+    .header-main .header-right { width: 85%; }
+    .header-main .header-outer { align-items: flex-start; }
+    .header-main .header-menu > ul > li { margin: 0px 3px; }
+    .banner-main .banner-heading { max-width: 750px; }
+    .service-main .service-outer .service-box .service-img { height: 120px; }
+    .service-main { padding-bottom: 30px; }
+    .team-section .team-heading h2 { font-size: 100px; padding-bottom: 20px; }
+    .team-section .team-outer .team-img { height: 170px; }
+    .team-section { padding-bottom: 35px; padding-top: 35px; }
+    .footer-top { padding-bottom: 25px; }
+}
+
+@media(max-width:991px) {
+    .container { max-width: 750px; }
+    h1 { font-size: 90px; }
+    h3 { font-size: 25px; }
+    .service-main .service-outer .service-box { width: 50%; margin: 0 auto 20px; }
+    .service-main .service-outer .service-box .service-img { height: 165px; }
+    .team-section .team-heading h2 { font-size: 90px; }
+    .team-section .team-outer .team-box { width: 50%; margin: 0 auto 20px; }
+    .team-section .team-outer .team-img { height: 235px; }
+    .footer-top .footer-box { width: 50%; margin-bottom: 20px; }
+        .header-section .header-outer .header-left { width: 50%; }
+        .header-section .header-outer .header-right { width: 50%; }
+        .main-menu > ul > li { display: block; }
+        .header-right .main-menu > ul { position: absolute; top: 100%; background: #3d54ae; width: 100%; text-align: left; left: 0; }
+        .header-right .main-menu { }
+        .header-right .main-menu > ul > li { border-bottom: 1px solid #fff; margin: 0; display: block; }
+        .header-right .main-menu > ul > li > a { width: 100%; display: block; padding: 10px 0px; padding-left: 15px; }
+        .header-right .main-menu > ul > li > ul > li { border-bottom: 1px solid #fff; }
+        .header-right .main-menu > ul > li > ul > li > a { display: block; width: 100%; padding: 10px 0px; text-transform: uppercase; color: #fff; padding-left: 30px; }
+        .header-right .main-menu > ul > li > ul > li:last-child { border-bottom: none; }
+        .header-right .main-menu > ul > li > ul > li > ul > li { border-bottom: 1px solid #fff; }
+        .header-right .main-menu > ul > li > ul > li > ul > li > a { width: 100%; text-transform: uppercase; color: #fff; padding: 10px 0px; padding-left: 39px; display: block; }
+        .header-right .main-menu > ul > li > ul > li > ul > li:last-child { border-bottom: none; }
+}
+
+@media(max-width:767px){
+.container { max-width: 100% }
+    h1 { font-size: 60px; }
+    h3 { font-size: 25px; }
+
+.header-main .heder-left { width: 50%; }
+.header-main .header-right { width: 50%; display: none; }
+.header-main .header-menu > ul > li { display: block; border-bottom: 1px solid #fff; margin: 0; }
+.header-main .header-menu > ul > li > a { width: 100%; display: block; margin: 0; padding-left: 15px; padding-top: 5px; padding-bottom: 5px; }
+.header-main .header-menu > ul { position: absolute; background: #000; width: 100%; top: 100%; left: 0; text-align: left; overflow: auto; }
+.header-main .header-menu > ul > li > ul > li { border-bottom: 1px solid #fff; }
+.header-main .header-menu > ul > li > ul > li > a { padding-left: 30px; padding-top: 5px; padding-bottom: 5px; display: block; }
+.header-main .header-menu > ul ul ul > li { display: block; border-bottom: 1px solid #fff; }
+.header-main .header-menu > ul ul ul > li > a { display: block; padding-left: 40px; padding-top: 5px; padding-bottom: 5px; }
+.header-main .header-menu > ul ul ul > li:last-child { border-bottom: none; }
+.header-main .header-menu > ul > li > ul > li:last-child { border-bottom: none; }
+.header-main .header-logo { margin: 20px 0px; }
+.banner-main { padding-top: 100px; padding-bottom: 10px; }
+.service-main .service-outer .service-box { max-width: 290px; width: 100%; }
+.service-main .service-outer .service-box .service-img { height: 175px; }
+.service-main .service-outer .service-box .service-heading { padding-top: 10px; padding-bottom: 10px; }
+.team-section .team-heading h2 { font-size: 50px; padding-bottom: 10px; }
+.team-section .team-outer .team-box { width: 100%; max-width: 320px; }
+.team-section { padding: 20px 0px; }
+.footer-top .footer-box { width: 100%; }
+.footer-bottom-part .footer-left { width: 100%; }
+.anovushment_bar-section { display: none; }
+.search_section { display: none; }
+.header-section { position: relative; }
+.header-section .header-right .header_menu > ul > li { display: block; border-bottom: 1px solid #000; }
+.header-section .header-right .header_menu > ul { position: absolute; top: 100%; left: 0; background: aliceblue; width: 100%; text-align: left; padding-bottom: 5px; overflow: auto; }
+.header-section .header-outer .header-left { width: 50%; }
+.header-section .header-right { width: 50%; }
+.header-section .header-right .header_menu > ul > li > a { width: 100%; display: block; color: #000; padding-left: 15px; padding-bottom: 15px; }
+.header_menu > ul li > ul > li { border-bottom: 1px solid #000; }
+.header_menu > ul li > ul > li > a { padding-left: 25px; }
+.header_menu > ul ul ul > li > a { padding-left: 40px; }
+
+
+
+}   
+
+@media
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+.heade.r-main .header-menu > ul > li:hover > ul { opacity: 1; visibility: visible; pointer-events: inherit; }
+.header-main .header-menu > ul ul { position: absolute; top: 100%; left: 0; text-align: left; width: 215px; overflow: hidden; box-shadow: 0px 10px 15px 5px rgb(0 0 0 / 20%); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top: 5px solid #40aed7; transition: all 0.3s linear; opacity: 0; visibility: hidden; pointer-events: none; }
+.header-main .header-menu > ul ul li { display: block; border-bottom: 1px solid #fff; }
+.header-main .header-menu > ul ul li a { background-color: #40aed7; color: #fff; padding: 10px 20px; display: block; font-size: 17px; }
+.header-main .header-menu > ul ul li:last-child { border-bottom: none; }
+.header-main .header-menu > ul ul li a:hover { color: #fff; background-color: #000; padding-left: 30px; }
+.header-main .header-menu .sub-menu > a { padding-right: 30px; position: relative; }
+.header-main .header-menu .sub-menu > a:after { content: "\f107"; font-family: FontAwesome; position: absolute; right: 10px; top: 8px; font-size: 17px; line-height: 1.3em; transition: transform 0.2s linear; }
+.header-main .header-menu .sub-menu > a:hover:after { transform: rotate(180deg); }
+.header-main .header-menu > ul > li:hover > ul { opacity: 1; visibility: visible; pointer-events: inherit; }
+}
